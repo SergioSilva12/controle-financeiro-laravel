@@ -8,7 +8,11 @@
 </head>
 <body>
     <form method="post" action="#">
-        <h1>ola</h1>
+        @csrf
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
     </form>
 </body>
 </html>
