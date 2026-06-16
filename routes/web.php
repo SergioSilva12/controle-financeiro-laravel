@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Https\Controller\ControllerUsuario;
+use App\Http\Controllers\ControllerUsuario;
 
 
 Route::get('/', function () {
